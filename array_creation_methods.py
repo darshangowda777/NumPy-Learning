@@ -47,6 +47,6 @@ print(r3)
 Without a seed → every run gives different random numbers.
 With a seed → same random numbers every time'''
 
-#
+np.random.seed(42)
 print(np.random.rand(3))
 
