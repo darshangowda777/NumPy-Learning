@@ -50,3 +50,4 @@ With a seed → same random numbers every time'''
 np.random.seed(42)
 print(np.random.rand(3))
 
+

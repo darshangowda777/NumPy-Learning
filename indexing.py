@@ -53,7 +53,6 @@ print(b[[0,1,2], [0,1,2]])
 
 #5 boolean indexing
 arr = np.array([10, 25, 30, 5, 50])
-
 print(arr[arr > 20])
 
 

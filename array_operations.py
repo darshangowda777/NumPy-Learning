@@ -53,12 +53,12 @@ Trigonometric: np.sin, np.cos, np.tan
 Comparisons: np.greater, np.less, np.equal'''
 
 a = np.array([1.0, 4.0, 9.0])
-print(np.sqrt(a))         # [1. 2. 3.]
-print(np.exp(np.array([0,1])))  # [1. 2.7182818...]
+print(np.sqrt(a))        
+print(np.exp(np.array([0,1])))  
 
 # element-wise max/min
 x = np.array([1, 7, 3])
 y = np.array([2, 4, 5])
-print(np.maximum(x, y))   # [2 7 5]
+print(np.maximum(x, y))  
 
 
